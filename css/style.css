@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* リーリース時には消すこと!!! */
+* {
+  /* outline: 1px rgba(255, 0, 0, 0.8) solid; */
+}
+/* 変数の定義 */
+:root {
+  --content-width: 960px;
+  --min-content-width: 375px;
+  --base-blue: #b3d4fc;
+  --base-pink: #fbc2d5;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* コンテンツ幅でのフォントサイズ */
+  font-family: "ヒラギノ角ゴ ProN W3", ArialMT, "Hiragino Kaku Gothic ProN",
+    メイリオ, sans-serif;
+  font-size: 18px;
+}
+.wbr {
+  word-break: keep-all;
+}
+
+/************************************************
+    レスポンシブ */
+
+@media screen and (min-width: 961px) {
+}
