@@ -1,9 +1,19 @@
 .section-11{
     height: 660px;
+    padding-top: 80px;
     background-image: url('../images/pc-sc11-bck@2x.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+footer{
+    text-align: center;
+    padding: 50px 0;
+    color:white;
+    background-color: var(--base-darkblue);
+  font-family: "Meiryo", "メイリオ", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
 }
 @media screen and (min-width: 961px) {
 

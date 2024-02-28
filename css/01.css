@@ -133,47 +133,24 @@ background-color: white;
   font-weight: bold;
   color: var(--base-darkblue);
   text-align: center;
+  letter-spacing: -0.03em;
+  line-height: 1.5;
 }
 .fv-memo{
   width: fit-content;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
+  line-height: 1.5;
   font-family: "Meiryo", "メイリオ", sans-serif;
+  position: relative;
+}
+.fv-memo::before{
+  content: '※';
+  position: absolute;
+  left: -1.2em;
 }
 
 /*  */
-form {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.form-group {
-  margin-bottom: 20px;
-}
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-.form-group input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-.form-group input[type="submit"] {
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-}
-.form-group input[type="submit"]:hover {
-  background-color: #0056b3;
-}
 /*  */
 
 
