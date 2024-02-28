@@ -10,6 +10,10 @@
   --min-content-width: 375px;
   --base-blue: #b3d4fc;
   --base-pink: #fbc2d5;
+  --base-darkblue: #003758;
+  --text-pink:#f4558b;
+  --text-black:#333333;
+  --text-marker-yellow: #fff33f;
 }
 html {
   scroll-behavior: smooth;
@@ -24,7 +28,94 @@ body {
 .wbr {
   word-break: keep-all;
 }
-
+.narrow{
+  letter-spacing: -0.2em;
+}
+.w960{
+  width: 960px;
+  margin: 0 auto;
+}
+.title_h2{
+  width: fit-content;
+  margin: 0 auto 0;
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--text-pink);
+}
+.title_h3{
+  width: fit-content;
+  margin: 16px auto 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.458;
+  letter-spacing: -0.1em;
+  color: var(--base-darkblue);
+}
+.box-a{
+  width: 100%;
+  margin: 56px auto 0;
+  padding: 60px 40px;
+  background-color: white;
+  box-shadow: 10px 5px 5px black;
+  font-family: "Meiryo", "メイリオ", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.pc-flex{
+  display: flex;
+}
+.text-marker-yellow {
+  background: linear-gradient(
+    transparent 3%,
+    var(--text-marker-yellow) 3%,
+    var(--text-marker-yellow) 92%,
+    transparent 92%
+  );
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 100%;
+}
+.text-red{
+  color:red;
+}
+.text-bold{
+  font-weight: bold;
+}
+.fs-120px{
+  font-size: 120px;
+}
+.fs-104px {
+  font-size: 104px;
+}
+.fs-26px{
+  font-size: 26px;
+}
+.fs-48px{
+  font-size: 48px;
+}
+.fs-40px {
+  font-size: 40px;
+}
+.fs-44px {
+  font-size: 44px;
+}
+.fs-58px
+{
+  font-size: 58px;
+}
+.fs-52px {
+  font-size: 52px;
+}
+.section-inner{
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.pc-flex img{
+  display: block;
+  width: 320px;
+  height: 200px;
+}
 /************************************************
     レスポンシブ */
 

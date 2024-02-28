@@ -1,4 +1,11 @@
-
+.section-09{
+    height: 2540px;
+    background-image: url('../images/pc-sc08-bck@2x.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 @media screen and (min-width: 961px) {
 
 }

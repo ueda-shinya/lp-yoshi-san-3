@@ -1,4 +1,12 @@
 
+.section-05{
+    height: 1000px;
+    background-image: url('../images/pc-sc05-bck@2x.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 @media screen and (min-width: 961px) {
 
 }
