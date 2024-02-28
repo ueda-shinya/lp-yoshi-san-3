@@ -1,5 +1,4 @@
 .section-02 {
-  height: 2352px;
   padding: 96px 0 104px;
   background-image: url("../images/pc-sc02-bck@2x.webp");
   background-attachment: fixed;
@@ -7,44 +6,10 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-
-.section-02 h2 {
-  width: fit-content;
-  margin: 0 auto;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.458;
-  color: var(--text-pink);
-}
-.section-02 p.bln {
-  width: 100%;
-  margin: 0 auto;
-  padding: 8px 0;
-  color: white;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 1.458;
-  letter-spacing: 0.04em;
-  text-align: center;
-}
-.bln {
-  position: relative;
-  background: var(--base-darkblue);
-}
-
-.bln:before {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 50%;
-  margin-left: -30px;
-  border: 30px solid transparent;
-  border-top: 15px solid var(--base-darkblue);
-}
 .section-02 img {
   width: 100%;
   height: auto;
-  margin-top: 86px;
+  margin-top: 100px;
 }
 
 @media screen and (min-width: 961px) {

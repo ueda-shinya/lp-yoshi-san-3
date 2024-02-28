@@ -7,6 +7,12 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+.section06-title_img{
+    display: block;
+    width: 694px;
+    height: auto;
+    margin: 0 auto 84px;
+}
 .section-06 .shadow_img{
     filter: drop-shadow( 5px 5px 5px #777777);
 }

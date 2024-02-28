@@ -7,6 +7,12 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;    
 }
+.section08-title_img{
+    display: block;
+    width: 603px;
+    height: auto;
+    margin: 0 auto 80px;
+}
 .section-08 h2{
     font-size: 48px;
     font-weight: 600;

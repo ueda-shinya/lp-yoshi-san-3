@@ -1,5 +1,4 @@
 .section-07{
-    /* height: 1420px; */
     padding: 90px 0 100px;
     padding-bottom: 96px;
     background-image: url('../images/pc-sc07-bck@2x.webp');
@@ -8,7 +7,12 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+.section07-title_img{
+    display: block;
+    width: 591px;
+    height: auto;
+    margin: 0 auto 86px;
+}
 
 
 
