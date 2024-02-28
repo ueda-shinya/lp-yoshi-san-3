@@ -1,9 +1,11 @@
-.section-01{
+.section-01 {
+  width: 100%;
   height: 1957px;
-  background-image: url('../images/pc-head-bck@2x.webp');
+  background-image: url("../images/pc-head-bck@2x.webp");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 1920px 1957px;
+  background-color: #b4d4fc;
 }
 header {
   width: 100%;
@@ -55,27 +57,27 @@ header {
   display: block;
   width: 100%;
   height: auto;
-  filter: drop-shadow( 0px 3px 5px #666666);
+  filter: drop-shadow(0px 3px 5px #666666);
   transition: all 0.3s;
 }
-.header-top-cta-btn_img:hover{
-  filter: drop-shadow( 0px 3px 5px #333333);
+.header-top-cta-btn_img:hover {
+  filter: drop-shadow(0px 3px 5px #333333);
 }
-.fv-2nd_td ul li::before{
+.fv-2nd_td ul li::before {
   /* チェックボックス */
-  content: '';
+  content: "";
   display: inline-block;
   width: 28px;
   height: 28px;
-  background-image: url('../images/check-box@2x.webp');
+  background-image: url("../images/check-box@2x.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
   position: relative;
-  top:0.2em;
+  top: 0.2em;
 }
 
-.fv-copy{
+.fv-copy {
   width: fit-content;
   margin: 54px auto;
   font-family: "Meiryo", "メイリオ", sans-serif;
@@ -86,19 +88,20 @@ header {
   letter-spacing: -0.03em;
   line-height: 1.5;
 }
-.section-01 .fv-copy{
+.section-01 .fv-copy {
   margin-top: 1270px;
 }
-.fv-memo{
+.fv-memo {
   width: fit-content;
   text-align: justify;
   font-size: 18px;
   line-height: 1.5;
   font-family: "Meiryo", "メイリオ", sans-serif;
   position: relative;
+  margin: 0 auto;
 }
-.fv-memo::before{
-  content: '※';
+.fv-memo::before {
+  content: "※";
   position: absolute;
   left: -1.2em;
 }
@@ -106,6 +109,38 @@ header {
 /*  */
 /*  */
 
+@media screen and (max-width: 960px) {
+  .section-01 {
+    height: auto;
+    background-size: 200vw 203.854vw;
+  }
+  header {
+    height: 11.458vw;
+  }
+  .header-top {
+    width: 91.667vw;
+  }
+  .header-top_p {
+    font-size: 2.5vw;
+  }
+  .header-top-catch {
+    width: 44.688vw;
+    height: 3.542vw;
+    margin-bottom: 0.833vw;
+  }
+  .header-top-cta-btn_a {
+    width: 31.458vw;
+  }
+  .fv-memo {
+    width: 100%;
+    font-size: clamp( 10px, 1.354vw, 13px);
+  }
+  .fv-copy {
+    margin: 5.625vw auto;
+    font-size: 3.75vw;
+  }
+  .section-01 .fv-copy {
+  margin-top: 132.292vw;
+}
 
-@media screen and (min-width: 961px) {
 }

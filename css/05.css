@@ -6,38 +6,12 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-.section-05 h2 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.458;
-  text-align: center;
-  color: var(--base-darkblue);
-}
-.section-05 h3 {
-  width: 800px;
-  margin: 35px auto 0;
-  padding: 8px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 600;
-  letter-spacing: -0.008em;
-  color: white;
-  background-color: var(--base-darkblue);
-}
-.section-05 h4 {
-  width: 100%;
-  padding: 8px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 600;
-  color: var(--base-darkblue);
-}
 .profile {
   width: 880px;
   height: auto;
   margin: 0 auto;
   margin-top: 30px;
-  padding-top: 82px;
+  padding-top: 310px;
   padding-left: 85px;
   background-image: url("../images/pc-yuzu@2x.webp");
   background-size: 100% auto;
@@ -55,8 +29,45 @@
 }
 .profile .title {
   margin-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   line-height: 1.5;
 }
-@media screen and (min-width: 961px) {
+@media screen and (max-width: 960px) {
+  .section-05 {
+    padding: 6.875vw 0 8.333vw;
+    background-image: url("../images/sp-sc05-bck@2x.webp");
+  }
+  .profile {
+    width: 800px;
+    width: 83.333vw;
+    background-image: url("../images/sp-yuzu2@2x.webp");
+    background-position: top 16px center;
+    margin: 0 auto;
+    padding-top: 646px;
+    padding-top: 67.292vw;
+    padding-top: 68.96vw;
+    padding-left: 40px;
+    padding-left: 4.167vw;
+    padding-right: 40px;
+    padding-right: 4.167vw;
+    font-size: 1.875vw;
+    background-color: white;
+  }
+  .profile .name {
+    margin-top: 10px;
+    font-size: 5vw;
+    text-align: center;
+  }
+  .profile .romaji {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  .profile .title {
+    margin-top: 25px;
+margin-top: 2.604vw;
+    padding-bottom: 80px;
+    padding-bottom: 8.333vw;
+    font-size: clamp( 13px, 1.875vw, 18px);
+    text-align: justify;
+  }
 }

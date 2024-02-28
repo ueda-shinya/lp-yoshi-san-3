@@ -44,5 +44,46 @@
   margin-top: 56px;
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (max-width: 960px) {
+
+
+  .section-04 {
+    padding: 10.4167vw 0 10vw;
+    height: unset;
+    background-image: url("../images/pc-sc04-bck@2x.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .section04-title_img {
+    display: block;
+    width: 91.9791vw;
+    height: auto;
+    margin: 0 auto 3.233vw;
+  }
+  
+  .section04-title2_img {
+    display: block;
+    width: 75.104vw;
+    height: auto;
+    margin: 5.833vw auto 3.333vw;
+  }
+  .sc04-pic {
+    width: 100%;
+    height: auto;
+  }
+  .section-04 p {
+    margin-top: 5.833vw;
+  }
+
+
+
+
+
+
+
+
+
+
 }

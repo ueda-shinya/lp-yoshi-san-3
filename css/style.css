@@ -11,8 +11,8 @@
   --base-blue: #b3d4fc;
   --base-pink: #fbc2d5;
   --base-darkblue: #003758;
-  --text-pink:#f4558b;
-  --text-black:#333333;
+  --text-pink: #f4558b;
+  --text-black: #333333;
   --text-marker-yellow: #fff33f;
 }
 html {
@@ -28,21 +28,21 @@ body {
 .wbr {
   word-break: keep-all;
 }
-.narrow{
+.narrow {
   letter-spacing: -0.2em;
 }
-.w960{
+.w960 {
   width: 960px;
   margin: 0 auto;
 }
-.title_h2{
+.title_h2 {
   width: fit-content;
   margin: 0 auto 0;
   font-size: 48px;
   font-weight: 600;
   color: var(--text-pink);
 }
-.title_h3{
+.title_h3 {
   width: fit-content;
   margin: 16px auto 0;
   font-size: 48px;
@@ -51,7 +51,7 @@ body {
   letter-spacing: -0.1em;
   color: var(--base-darkblue);
 }
-.box-a{
+.box-a {
   width: 100%;
   margin: 56px auto 0;
   padding: 60px 40px;
@@ -61,7 +61,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
-.pc-flex{
+.pc-flex {
   display: flex;
 }
 .text-marker-yellow {
@@ -75,22 +75,22 @@ body {
   background-position: center bottom;
   background-size: 100% 100%;
 }
-.text-red{
-  color:red;
+.text-red {
+  color: red;
 }
-.text-pink{
+.text-pink {
   color: var(--text-pink);
 }
-.text-darkblue{
+.text-darkblue {
   color: var(--base-darkblue);
 }
-.text-bold{
+.text-bold {
   font-weight: bold;
 }
 .form-group {
   margin-bottom: 30px;
 }
-input[type="email"]{
+input[type="email"] {
   background-color: white;
   width: 100%;
   text-align: center;
@@ -99,32 +99,30 @@ input[type="email"]{
   padding: 8px;
   border-radius: 10px;
 }
-button{
+button {
   display: block;
   margin: 0 auto;
 }
-button img{
+button img {
   display: block;
   width: 687px;
   height: auto;
-  filter: drop-shadow( 0px 5px 10px #666666);
+  filter: drop-shadow(0px 5px 10px #666666);
   transition: all 0.3s;
-
 }
-button img:hover{
-  filter: drop-shadow( 0px 5px 10px #333333);
-
+button img:hover {
+  filter: drop-shadow(0px 5px 10px #333333);
 }
-.fs-120px{
+.fs-120px {
   font-size: 120px;
 }
 .fs-104px {
   font-size: 104px;
 }
-.fs-26px{
+.fs-26px {
   font-size: 26px;
 }
-.fs-48px{
+.fs-48px {
   font-size: 48px;
 }
 .fs-40px {
@@ -133,25 +131,98 @@ button img:hover{
 .fs-44px {
   font-size: 44px;
 }
-.fs-58px
-{
+.fs-58px {
   font-size: 58px;
 }
 .fs-52px {
   font-size: 52px;
 }
-.section-inner{
+.section-inner {
   width: 960px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.text-area_img{
+.text-area_pic {
   display: block;
   width: 320px;
   height: 200px;
 }
+.text-area_img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /************************************************
     レスポンシブ */
 
-@media screen and (min-width: 961px) {
+@media screen and (max-width: 960px) {
+  .sp-none{
+    display: none;
+  }
+  input[type="email"] {
+    width: 100%;
+    width: 83.333vw;
+    height: 7.604vw;
+    font-size: clamp(10px, 1.354vw, 13px);
+    margin: 0 auto;
+    position:relative; 
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .w960 {
+    width: 100%;
+    padding-left: 2.083vw;
+    padding-right: 2.083vw;
+  }
+  .pc-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .box-a {
+    margin: 5.833vw auto 0;
+    padding-top: 2.083vw;
+    padding-left: 2.083vw;
+    padding-right: 2.083vw;
+    padding-bottom: 8.333vw;
+    font-size: clamp(16px, 1.874vw, 18px);
+  }
+  .text-area {
+    width: 100%;
+    display: block;
+    order: 2;
+    padding-top: 1.5em;
+  }
+  .text-area_pic {
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+  button img {
+    width: 71.562vw;
+  }
+  .section-inner {
+    width: 100vw;
+    /* padding: 0 4.167vw; */
+    width: 100%;
+    /* background-color: #b4d4fc; */
+    padding-bottom: 16px;
+    margin: 0;
+  }
+  .form-group {
+    margin-bottom: 3.125vw;
+    position: relative;
+  }
+  .fv-memo {
+    font-size: clamp(10px, 1.875vw, 18px);
+    line-height: 1.5;
+    font-family: "Meiryo", "メイリオ", sans-serif;
+    position: relative;
+    margin: 0 auto;
+  }
+  .text-area_img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
 }

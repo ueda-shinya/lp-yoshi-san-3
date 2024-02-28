@@ -23,5 +23,24 @@ p.sign {
   padding-left: unset;
   padding-right: 104px;
 }
-@media screen and (min-width: 961px) {
+@media screen and (max-width: 960px) {
+  .section-10 {
+    height: 1000px;
+    height: 104.167vw;
+    padding: 220px 0 180px;
+    padding: 22.916vw 0 18.75vw;
+  }
+  .section-10 p {
+    font-size: 18px;
+    font-size: clamp(13px, 1.875vw, 18px);
+    font-size: 1.875vw;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  p.sign {
+    font-size: 40px;
+    font-size: 4.167vw;
+    padding-right: 104px;
+    padding-right: 10.833vw;
+  }
 }
