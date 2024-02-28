@@ -78,6 +78,9 @@ body {
 .text-red{
   color:red;
 }
+.text-pink{
+  color: var(--text-pink);
+}
 .text-darkblue{
   color: var(--base-darkblue);
 }
@@ -96,13 +99,13 @@ input[type="email"]{
   padding: 8px;
   border-radius: 10px;
 }
-input[type="image"]{
+
+button img{
   display: block;
   width: 687px;
   height: auto;
-  /* height: 164px; */
   margin: 0 auto;
-} 
+}
 
 .fs-120px{
   font-size: 120px;

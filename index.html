@@ -15,8 +15,6 @@
     <meta property="og:description" content="適切な説明">
     <meta property="og:locale" content="ja_JP">
     <!-- アイキャッチ設定ここまで -->
-    <!-- キャッシュ無効 リリース時削除 -->
-    <meta http-equiv="Cache-Control" content="no-store">
     <meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE">
     <!-- ファビコン -->
     <link rel="apple-touch-icon" href="./images/favicon.ico" sizes="180x180">
@@ -37,7 +35,6 @@
     <link rel="stylesheet" type="text/css" href="./css/10.css">
     <link rel="stylesheet" type="text/css" href="./css/11.css">
     <!-- リリース時PHPの部分削除 -->
-    <!-- <link rel="stylesheet" href="./css/style.css?timestamp=<?php echo time(); ?>"> -->
   </head>
 
   <body>
@@ -58,7 +55,7 @@
         <div class="section-inner">
           <h1>証拠金<span class="fs-104px">50</span><span class="fs-44px">万円</span>からたった半年<span
               class="fs-52px"></span>で<br>
-            <span class="text-pink"><span class="fs-120px">290</span><span class="fs-48px">万円</span></span><span
+            <span class="text-pink"><span class="fs-120px ">290</span><span class="fs-48px">万円</span></span><span
               class="fs-58px">の</span>利益<span class="fs-58px">を</span>獲得！
           </h1>
           <h2>チャート<span class="fs-26px">に</span>現<span class="fs-26px">れる</span>着実<span class="fs-26px">な</span>利益<span
@@ -79,7 +76,7 @@
           <!--  -->
           <form action="#" method="post">
             <div class="form-group">
-              <input type="email" id="email" name="email" required placeholder="あなたがいつもご利用のメールアドレスをご記入ください">
+              <input type="email" id="fv-email" name="email" required placeholder="あなたがいつもご利用のメールアドレスをご記入ください">
             </div>
             <div class="form-group">
               <input type="image" src="images/pc-cta-btn@2x.webp" alt="Submit">
@@ -299,26 +296,24 @@
           <!--  -->
           <form action="#" method="post">
             <div class="form-group">
-              <input type="email" id="email" name="email" required placeholder="あなたがいつもご利用のメールアドレスをご記入ください">
+              <input type="email" id="footer-email" name="email" required placeholder="あなたがいつもご利用のメールアドレスをご記入ください">
             </div>
             <div class="form-group">
-              <input type="image" src="images/pc-cta-btn@2x.webp" alt="Submit">
+              <button type="submit">
+                <img src="images/pc-cta-btn@2x.webp" alt="Submit">
+              </button>
+              <!-- <input type="image" src="images/pc-cta-btn@2x.webp" alt="Submit"> -->
             </div>
           </form>
           <!--  -->
-          <p class="memo_p wbr">登録後にお送りするメールが<wbr>「迷惑メールフォルダ」に入ってしまう可能性があります。 <wbr>登録後にメールが届いていない場合は、<wbr>必ず迷惑メールフォルダをご確認ください。</p>
+          <p class="fv-memo wbr">登録後にお送りするメールが<wbr>「迷惑メールフォルダ」に入ってしまう可能性があります。 <wbr>登録後にメールが届いていない場合は、<wbr>必ず迷惑メールフォルダをご確認ください。
+          </p>
         </div>
       </section>
-      <!--  -->
-      <!--  -->
-      <!--  -->
-      <!--  -->
-      <picture>
-        <source srcset="images/sp-.webp" media="(min-width: 961px)" type="image/webp" width="" height="">
-        <img src="images/pc-.webp" alt="" width="" height="" decoding="async" loading="lazy">
-      </picture>
-      <div></div>
     </main>
-    <footer> プライバシーポリシー| 特定商取引法上の表記 Copyright © LIFE Publishing Inc. All Rights Reserved. </footer>
+    <footer>
+      <p>プライバシーポリシー| 特定商取引法上の表記</p>
+      <p>Copyright © LIFE Publishing Inc. All Rights Reserved.</p>
+    </footer>
 
 </html>
