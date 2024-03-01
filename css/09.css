@@ -12,7 +12,6 @@
   padding: 0 80px 50px;
   background-color: white;
   position: relative;
-  /* filter: drop-shadow(3px 3px 3px #333333); */
   box-shadow: 0px 5px 5px #cccccc;
 }
 .section-09 .card:last-of-type {
@@ -63,8 +62,7 @@ img.parallelogram {
 
 @media screen and (max-width: 960px) {
   .section-09 {
-    /* padding: 166px 0 90px; */
-    padding: 114px 0 100px; 
+    padding: 114px 0 100px;
     padding: 15.325vw 0 10.412vw;
   }
   .card {
@@ -73,17 +71,11 @@ img.parallelogram {
     padding: 0 80px 70px;
     margin-bottom: 14.5889vw;
     padding: 0 8.333vw 7.212vw;
-
-    /* background-color: white; */
-    /* position: relative; */
-    /* filter: drop-shadow(3px 3px 3px #333333); */
-    /* box-shadow: 0px 5px 5px #cccccc; */
   }
   .section-09 .card:last-of-type {
     margin-bottom: unset;
   }
   .card img.pic {
-    /* 207 x 197 */
     display: block;
     position: absolute;
     position: relative;
@@ -91,14 +83,11 @@ img.parallelogram {
     height: 197px;
     margin: unset;
     left: 50%;
-    top:100px;
+    top: 100px;
     transform: translateX(-50%);
-
-
-    width:21.563vw;
+    width: 21.563vw;
     height: 20.521vw;
     top: 10.417vw;
-
   }
 
   .card ul {
@@ -106,10 +95,9 @@ img.parallelogram {
     padding-top: 80px;
     padding-top: 38px;
     margin-top: 10.412vw;
-    padding-top:3.956vw; ;
+    padding-top: 3.956vw;
   }
   .card ul li {
-    /* font-size: 24px; */
     font-size: 18px;
     font-size: clamp(13px, 1.875vw, 18px);
     line-height: 2.167;
@@ -131,13 +119,13 @@ img.parallelogram {
   img.parallelogram {
     position: absolute;
     width: 896px;
-    width:93.333vw;
+    width: 93.333vw;
     height: auto;
     margin: 0 auto;
     margin-top: 85px;
     margin-top: unset;
     top: -70px;
-    top:-7.292vw;
+    top: -7.292vw;
     left: 50%;
     transform: translateX(-50%);
   }

@@ -45,8 +45,6 @@
 }
 
 @media screen and (max-width: 960px) {
-
-
   .section-04 {
     padding: 10.4167vw 0 10vw;
     height: unset;
@@ -62,7 +60,7 @@
     height: auto;
     margin: 0 auto 3.233vw;
   }
-  
+
   .section04-title2_img {
     display: block;
     width: 75.104vw;
@@ -76,14 +74,4 @@
   .section-04 p {
     margin-top: 5.833vw;
   }
-
-
-
-
-
-
-
-
-
-
 }

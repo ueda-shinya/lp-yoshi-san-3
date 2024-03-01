@@ -15,7 +15,7 @@
   padding-left: 104px;
 }
 p.sign {
-    width: 100%;
+  width: 100%;
   font-family: "Meiryo", "メイリオ", sans-serif;
   font-size: 40px;
   line-height: 1.5;
@@ -27,19 +27,32 @@ p.sign {
   .section-10 {
     height: 1000px;
     height: 104.167vw;
+    background-image: url("../images/sp-sc10-bck2@2x.webp");
+    height: auto;
     padding: 220px 0 180px;
-    padding: 22.916vw 0 18.75vw;
+    padding: 10vw 0 10vw;
+  }
+  .section-10 .w960 {
+    background-image: url("../images/sp-letter-upper.webp"),
+      url("../images/sp-letter-lower.webp"),
+      url("../images/sp-letter-middle.webp");
+    background-position: top center, bottom center, center center;
+    background-size: 97.813vw 31.25vw, 97.813vw 31.25vw, 97.813vw 100%;
+
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
   .section-10 p {
     font-size: 18px;
-    font-size: clamp(13px, 1.875vw, 18px);
     font-size: 1.875vw;
+    font-size: clamp(16px, 1.875vw, 18px);
     padding-left: 3em;
     padding-right: 3em;
   }
   p.sign {
     font-size: 40px;
-    font-size: 4.167vw;
+    font-size: clamp(24px, 4.167vw, 40px);
     padding-right: 104px;
     padding-right: 10.833vw;
   }

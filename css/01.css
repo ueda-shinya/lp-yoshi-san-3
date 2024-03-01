@@ -93,7 +93,6 @@ header {
 }
 .fv-memo {
   width: fit-content;
-  text-align: justify;
   font-size: 18px;
   line-height: 1.5;
   font-family: "Meiryo", "メイリオ", sans-serif;
@@ -132,7 +131,8 @@ header {
     width: 31.458vw;
   }
   .fv-memo {
-    width: 100%;
+    display:block;
+    width:fit-content;
     font-size: clamp( 10px, 1.354vw, 13px);
   }
   .fv-copy {
