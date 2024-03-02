@@ -93,12 +93,16 @@ body {
 input[type="email"] {
   background-color: white;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 24px;
   line-height: 1;
   padding: 8px;
   border-radius: 10px;
 }
+input::placeholder {
+  text-align: center;
+}
+
 button {
   display: block;
   margin: 0 auto;
