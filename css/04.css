@@ -1,6 +1,6 @@
 .section-04 {
   padding: 100px 0 96px;
-  height: 2320px;
+  /* height: 2320px; */
   background-image: url("../images/pc-sc04-bck@2x.webp");
   background-attachment: fixed;
   background-size: cover;
@@ -40,8 +40,52 @@
   width: 100%;
   height: auto;
 }
-.section-04 p {
+.section-04_p {
   margin-top: 56px;
+}
+.sc04-voices {
+  display: grid;
+  margin: 35px auto 50px;
+  /* width: fit-content; */
+  width: 100%;
+  /* margin: 0 auto; */
+  gap: 33px 24px;
+  grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+}
+.sc04-card {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  /* filter: drop-shadow(5px 5px 5px #777777); */
+  box-shadow: 0px 5px 5px #cccccc;
+}
+.sc04-card_img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.sc04-card-text {
+  width: 100%;
+  padding: 0 13px 10px 22px;
+  font-family: "Meiryo", "メイリオ", sans-serif;
+}
+.sc04-card-name_p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 4.615;
+  text-align: center;
+}
+.sc04-card-voice_p {
+  font-size: 16px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.sc04-card-memo_p {
+  width: 100%;
+  text-align: right;
+  font-size: 13px;
+  line-height: 2;
 }
 
 @media screen and (max-width: 960px) {
@@ -71,7 +115,11 @@
     width: 100%;
     height: auto;
   }
-  .section-04 p {
+  .section-04_p {
     margin-top: 5.833vw;
+  }
+  .sc04-voices {
+    display: grid;
+    margin: 3.646vw auto 5.208vw;
   }
 }
